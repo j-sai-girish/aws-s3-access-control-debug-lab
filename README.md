@@ -17,6 +17,8 @@ It demonstrates structured debugging of **403 Forbidden (AccessDenied)** errors 
 ---
 
 ## 🏗️ Architecture
+
+![Architecture Diagram](architecture/architecture-diagram.png)
 - S3 bucket hosts `index.html`
 - IAM user (`s3-debug-user`) used for CLI access
 - Bucket policy introduces Explicit Deny
